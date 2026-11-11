@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation;
 using UnityEngine.XR.Management;
 
 namespace VRTraining.Core
@@ -21,7 +22,16 @@ namespace VRTraining.Core
             }
 
             if (headsetRunning) return;
-            Instantiate(simulatorPrefab);
+
+            GameObject simulator = Instantiate(simulatorPrefab);
+
+            // simulator point and click turns off mouse input of the ui module
+            // switched off so plain mouse clicks work on menu buttons
+            XRInteractionSimulator interactionSimulator = simulator.GetComponentInChildren<XRInteractionSimulator>();
+            if (interactionSimulator != null)
+            {
+                interactionSimulator.usePointAndClick = false;
+            }
         }
     }
 }
