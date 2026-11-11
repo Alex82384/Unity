@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 420489d4a7f81cc44bfd9c7d285518be, type: 3}
+  m_Name: HighlightStyle
+  m_EditorClassIdentifier: Assembly-CSharp::VRTraining.Highlight.HighlightStyle
+  outlineMaterial: {fileID: 2100000, guid: a6b9bb5447d5e17488f14f3b77a6eb54, type: 2}
+  expectedColor: {r: 0.2, g: 1, b: 0.45, a: 1}
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  width: 0.02
+  pulseSpeed: 5
+  glowIntensity: 1.6
