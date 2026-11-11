@@ -1,0 +1,6 @@
+﻿Third-party 3D models (all CC0 / public domain)
+
+Crate/            "Wooden crate" (crate_wooden_fbx.zip) - https://opengameart.org/content/wooden-crate-0
+Industrial/       3TD Industrial Pack by 3TD Studios, pallet and barrel only - https://opengameart.org/content/3td-industrial-pack
+SpaceKit/         Space Kit by Kenney (www.kenney.nl) - https://opengameart.org/content/space-kit
+Pedestal/         "Pedestal" by Quaternius, via Poly Pizza - https://poly.pizza/m/wUeoDKnFBF

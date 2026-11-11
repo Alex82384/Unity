@@ -1,0 +1,10 @@
+﻿Third-party textures (CC0 / public domain)
+
+Source: "50 free textures 5 - with normalmaps"
+https://opengameart.org/content/50-free-textures-5-with-normalmaps
+License: CC0 1.0 (no attribution required, credited here anyway)
+
+Used files (original name -> project name):
+245 -> Floor_Tile, 214 -> Wall_Plaster, 218 -> Ceiling_Concrete,
+203 -> Metal_DiamondPlate, 240 -> Wood_Light, 236 -> Wood_Planks
+(each with its *_norm.jpg normal map saved as *_normal.jpg)
